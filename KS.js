@@ -60,7 +60,7 @@ let HousingCostData;
 //KSHousingCost.json has contains data for the monthly housing cost
 //in kansas per tract for 2018. From the acs.
 var promises = [
-    d3.json("kS.json"),
+    d3.json("KS.json"),
     d3.json("KSCountyNames.json").then(function(d){
         dataset = d.slice(1);
     }),
